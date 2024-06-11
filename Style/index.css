@@ -28,7 +28,8 @@
 }
 
 main{
-    background-color: #fff0f0;
+    width: 100%;
+    background-color: #bfe0e2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +37,7 @@ main{
 }
 
 .title{
-    border-bottom: solid 4px #ff5757;
+    border-bottom: solid 4px #5ef7ff;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -47,6 +48,7 @@ main{
 .title > img{
     width: 3rem;
     height: 3rem;
+    background-color: #00cae1;
     border-radius: 50%;
 }
 
