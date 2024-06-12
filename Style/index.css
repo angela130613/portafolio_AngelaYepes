@@ -29,7 +29,7 @@
 }
 
 .photo-front-page > h1{
-      text-shadow: 0 0 5px rgb(0, 0, 0),
+    text-shadow: 0 0 5px rgb(0, 0, 0),
     0 0 25px rgb(38, 0, 255),
     0 0 50px rgb(38, 0, 255),
     0 0 100px rgb(38, 0, 255);
@@ -58,6 +58,10 @@ main{
     width: 3rem;
     height: 3rem;
     background-color: #00cae1;
+    box-shadow: 0 0 5px rgb(0, 0, 0),
+    0 0 25px #00cae1,
+    0 0 50px #00cae1,
+    0 0 100px #00cae1;
     border-radius: 50%;
 }
 
