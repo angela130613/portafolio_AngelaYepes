@@ -182,3 +182,19 @@ main{
         margin: 9px;
     }
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+
+    .cant {
+        width: 58%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 9px;
+    }
+
+  
+
+
+}
