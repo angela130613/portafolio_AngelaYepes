@@ -161,7 +161,7 @@ main{
 @media screen and (min-width: 480px) and (max-width: 1040px) { 
 
     .title{
-        border-bottom: solid 4px #5ef7ff;
+        border-bottom: solid 4px #63ff5e;
         display: flex;
         flex-direction: row;
         text-align: center;
