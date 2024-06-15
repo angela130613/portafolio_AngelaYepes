@@ -210,14 +210,7 @@ main{
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
 
-    .cant {
-        width: 58%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 9px;
-    }
+    
 
     .referencias {
         display: flex;
@@ -228,15 +221,24 @@ main{
 
     }
 
-    .experience{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 10px;
+    .title {
+        width: 90%;
+        text-align: center;
+
     }
 
+    .experience{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+    @media screen and (min-width: 975px) and (max-width: 1559px) {
+
+
+       
 
 
 
