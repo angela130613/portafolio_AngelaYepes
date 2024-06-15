@@ -237,7 +237,13 @@ main{
 
     @media screen and (min-width: 975px) and (max-width: 1559px) {
 
-
+        .title {
+            width: 90%;
+            text-align: center;
+            
+    
+        }
+    
        
 
 
