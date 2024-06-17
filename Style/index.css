@@ -76,7 +76,7 @@ main{
 .card {
     width: 20rem;
     height: 10rem;
-    margin: 30px;
+    margin: 17px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -125,7 +125,7 @@ main{
 }
 
 .card-for-references >p {
-margin:  0.5remÑ;
+margin:  0.5rem;
 }
 
 .referencias {
