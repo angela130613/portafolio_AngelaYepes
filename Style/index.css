@@ -67,7 +67,7 @@ main{
     margin: 15px;
 }
 
-.proyects{
+.Proyectos{
     display: flex;
     flex-direction: column;
 
@@ -210,7 +210,12 @@ main{
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
 
-    
+    .Proyectos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
     .referencias {
         display: flex;
@@ -236,6 +241,13 @@ main{
 }
 
     @media screen and (min-width: 975px) and (max-width: 1559px) {
+
+        .Proyectos{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
 
         .title {
             width: 90%;
