@@ -124,6 +124,10 @@ main{
 
 }
 
+.card-for-references >p {
+margin:  0.5remÑ;
+}
+
 .referencias {
     display: flex;
     flex-direction: row;
@@ -256,7 +260,10 @@ main{
     
         }
     
-       
+       .card {
+        width: 25rem;
+
+       }
 
 
 
