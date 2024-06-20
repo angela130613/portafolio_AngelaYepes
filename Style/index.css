@@ -5,7 +5,7 @@
  header{
     width: 100%;
     height: 20rem;
-    background-color: #21e1ef;
+    background-color:#81c4ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +51,7 @@ main{
 }
 
 .title{
-    border-bottom: solid 4px #5ef7ff;
+    border-bottom: solid 4px #0079ce;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -64,10 +64,10 @@ main{
     width: 3rem;
     height: 3rem;
     background-color: #00cae1;
-    box-shadow: 0 0 5px #00cae1,
-    0 0 25px #00cae1,
-    0 0 50px #00cae1,
-    0 0 100px #00cae1;
+    box-shadow: 0 0 5px #0079ce,
+    0 0 25px #0699f1,
+    0 0 50px #29b0ff,
+    0 0 100px #78cdff;
     border-radius: 50%;
     margin: 15px;
 }
@@ -86,7 +86,10 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    box-shadow: 0 0 25px #00a0bc;
+    box-shadow: 0 0 5px #0079ce,
+    0 0 25px #0699f1,
+    0 0 50px #29b0ff,
+    0 0 100px #78cdff;
     background-color: #a0fcff;
     justify-content: space-evenly;
 }
@@ -120,8 +123,8 @@ main{
     width: 10rem;
     height: 9rem;
     margin: 10px;
-    box-shadow: 0 0 25px #00a0bc;
-    background-color:#92cace;
+    box-shadow: 0 0 5px #0079ce;
+    background-color: #9ef2ff;
     border: solid 2px #00a0bc;
     display: flex;
     flex-direction: column;
@@ -146,7 +149,11 @@ margin:  0.5rem;
     width: 8rem;
     height: 8rem;
     margin: 25px;
-    box-shadow: 0 0 25px#00a0bc;
+    box-shadow: 0 0 5px #0079ce,
+    0 0 25px #0699f1,
+    0 0 50px #29b0ff,
+    0 0 100px #78cdff;
+
 }
 
 .experience{
