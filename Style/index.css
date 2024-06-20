@@ -95,8 +95,10 @@ main{
 }
 
 .info{
+    width: 50%;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .card > img {
@@ -105,8 +107,8 @@ main{
     border-radius: 15px;
 }
 
-.card > p {
-    font-size: 125%;
+.info > p {
+    font-size: 70%;
     color: #00a0bc;
     text-align:center;
 }
@@ -173,6 +175,25 @@ margin:  0.5rem;
     flex-direction: column;
     margin: 17.8px;
 }
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background: #81c4ff ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > a{
+    margin: 10rem;
+}
+
+a > img {
+    width: 3rem;
+}
+
 
 @media screen and (min-width: 480px) and (max-width: 1040px) { 
 
